@@ -27,6 +27,18 @@ versions/
 
 `version.json` 提供资源版本、每张表的记录数和 `json_sha256`。
 
-## 使用
+## 生成管线
 
-从 `versions/` 中按点分数字版本选取最新目录，并在一次读取任务中固定使用该目录。不要混用不同版本的文件。
+```text
+Android emulator
+    ↓
+Resource acquisition
+    ↓
+Bytecode decoding
+    ↓
+Schema validation
+    ↓
+Immutable version publishing
+```
+
+生成管线与解码实现不在本仓库公开，本仓库仅提供经过校验的版本化数据产物。
