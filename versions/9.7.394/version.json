@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-04T11:06:57.577325+08:00",
+  "game_base_id": 97,
+  "package_name": "com.bilibili.azurlane",
+  "apk": {
+    "version_code": 9725,
+    "version_name": null
+  },
+  "resources": {
+    "version": "9.7.394",
+    "tables": {
+      "ship_data_statistics": {
+        "records": 4123,
+        "json_sha256": "b240e14ef1b684fac9f21f6416b94788dbd07265d9a84072d3ca76dd7c755540"
+      },
+      "ship_data_template": {
+        "records": 3972,
+        "json_sha256": "325232a1d9913afd414ef743828a0b6ca7f837f7324ad2eac631c5192fc98802"
+      },
+      "ship_skin_template": {
+        "records": 2870,
+        "json_sha256": "7be385e58c274c61aaf92d95650ab91e7a02104fb8f17e4661afa4c67c5cdb43"
+      }
+    }
+  }
+}
